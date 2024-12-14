@@ -49,10 +49,16 @@ python -m unittest discover data_profiler/tests
 2.  **Importar:** `from data_profiler import profile_data, gerar_relatorio`
 3.  **Usar:**  `profile = profile_data(seu_dataframe)`
 
-
 **Próximos passos:**
 
 * Adicionar mais estatísticas e detecção de anomalias.
 * Criar um relatório mais completo (HTML, PDF, etc.).
 * Publicar o pacote no PyPI.
 * Implementar logging.
+
+## Melhorias
+
+* Visualização: Integrar com bibliotecas de visualização (matplotlib, seaborn) para gerar gráficos e visualizações do perfil dos dados.
+* Testes mais abrangentes: Adicionar mais testes unitários para cobrir diferentes cenários e tipos de dados.
+* Métricas personalizadas: Permitir que o usuário defina métricas personalizadas para calcular no perfil.
+* Integração com ferramentas de CI/CD: Configurar um pipeline de integração contínua/entrega contínua (CI/CD) para automatizar testes e publicação do pacote.
